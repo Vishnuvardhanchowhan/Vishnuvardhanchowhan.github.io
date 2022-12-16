@@ -23,7 +23,7 @@ navbar-links:
   About Me: "Hey there!"
   Resources:
     - My movies list: "https://www.imdb.com/chart/top/"
-    - General Knowledge: "https://www.markdowntutorial.com/"
+    - General Knowledge: "https://www.youtube.com/@dhruvrathee"
   Author's home: "https://deanattali.com"
 
 ################
@@ -51,11 +51,10 @@ round-avatar: true
 social-network-links:
   email: "vishnu.logics637@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: Mudavath vishnuvardhan
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: mudavath.vishnuvardhan
+  github: Vishnuvardhanchowhan
+  instagram: bunny_rogerz.0_0
+  youtube: channel/UCvm-4ERtIXA36ymLk6o7fLQ
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
