@@ -20,11 +20,11 @@ author: Mudavath Vishnuvardhan
 ###############################################
 
 navbar-links:
-  About Me: "Hey there!"
+  About Me: "Mywebpage"
   Resources:
     - My movies list: "https://www.imdb.com/chart/top/"
+    - Current affairs YT channel: "https://www.youtube.com/@thedeshbhakt"
     - General Knowledge: "https://www.youtube.com/@dhruvrathee"
-  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -94,7 +94,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "MeraWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
