@@ -10,17 +10,17 @@
 ############################
 
 # Name of website
-title: My Website
+title: Vishnuvardhan's Webpage
 
 # Your name to show in the footer
-author: Some Person
+author: Mudavath Vishnuvardhan
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "Hola! I'm ppresenntly working as Data scientist at Kotak Mahindra bank, Love to Watch Movies."
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
