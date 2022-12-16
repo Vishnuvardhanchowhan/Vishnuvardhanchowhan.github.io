@@ -20,10 +20,10 @@ author: Mudavath Vishnuvardhan
 ###############################################
 
 navbar-links:
-  About Me: "Hola! I'm ppresenntly working as Data scientist at Kotak Mahindra bank, Love to Watch Movies."
+  About Me: "Hey there!"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - My movies list: "https://www.imdb.com/chart/top/"
+    - General Knowledge: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
 ################
@@ -49,9 +49,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "vishnu.logics637@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
+  facebook: Mudavath vishnuvardhan
   github: daattali
   twitter: daattali
   patreon: DeanAttali
