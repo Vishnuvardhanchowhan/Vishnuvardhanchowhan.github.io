@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/path.jpg
+title: Background lighting
+subtitle: Theme lighting using LED Strip based on dominant color on laptop screen using python and Arduino.
+cover-img: /assets/img/proj1.jpeg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
