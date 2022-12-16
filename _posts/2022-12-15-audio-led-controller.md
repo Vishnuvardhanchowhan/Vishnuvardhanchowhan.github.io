@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Background lighting
-subtitle: Theme lighting using LED Strip based on dominant color on laptop screen using python and Arduino.
+title: Sound controlled LED's 
+subtitle: Theme lighting using LED Strip , LED light frequency emitted equal to max frequency of sound in a given chunk.
 cover-img: /assets/img/total.jpg
 thumbnail-img: /assets/img/proj1.jpeg
 share-img: /assets/img/path.jpg
