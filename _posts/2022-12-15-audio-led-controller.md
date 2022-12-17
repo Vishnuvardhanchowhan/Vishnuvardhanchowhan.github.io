@@ -8,4 +8,9 @@ share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
 
-I have used Open-Cv for Image processing in python in the code I took screenshot of laptop screen at each instant of time by using pyautogui library and while loop and further processed image , firstly i read image using open cv  and then computed average values of all the pixels across the screen for RGB colors then after computation i have sent this data using serial communication to Arduino board and thus this data is analogly written at each three pins of Arduino UNO this signal is futher amplified for whole LED strip using three Mosfets , Thus in conclusion we get dominant color displayed on laptop screen on LED's.
+I have used [pyaudio][1] library for getting Audio input from surroundings and after reading data , I have computed Amplitude of audio chunk continuosly and for computing frequency spectrum of given audio chunk we use Fast Fourier Tranform from [scipy_fftpack][2] and this data is used to get Max frequency of given data chunk, we send this data through [serial][3] library in python to our arduino UNO board and IDE at this junction we give values of RGB based on there light frequencies,after this we design a circuit as shown below and get required light frequency output with certain frequency audio as input.
+please do checkout code for further info in my repositories.
+
+[1]:https://pypi.org/project/PyAudio/  "pyaudio"
+[2]:https://docs.scipy.org/doc/scipy/reference/generated/scipy.fftpack.fft.html  "scipy_fftpack"
+[3]:https://pyserial.readthedocs.io/en/latest/pyserial.html "serial"
