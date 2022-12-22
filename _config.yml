@@ -23,10 +23,9 @@ navbar-links:
   About Me: "Mywebpage"
   Resources:
     - My movies list: "https://www.imdb.com/chart/top/"
-    - Current Affairs:
-         sublinks:
-           - Deshbhakt: "https://www.youtube.com/@thedeshbhakt"
-           - DhruvRathee: "https://www.youtube.com/@dhruvrathee"
+      Current Affairs:
+        - Deshbhakt: "https://www.youtube.com/@thedeshbhakt"
+        - DhruvRathee: "https://www.youtube.com/@dhruvrathee"
     - General Knowledge: "https://www.youtube.com/@dhruvrathee"
 
 ################
