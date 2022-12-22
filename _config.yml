@@ -22,10 +22,17 @@ author: Mudavath Vishnuvardhan
 navbar-links:
   About Me: "Mywebpage"
   Resources:
+    - Coding: "https://www.youtube.com/@programmingwithmosh"
     - My Movies list: "https://www.imdb.com/chart/top/"
   Current Affairs:
     - Deshbhakt: "https://www.youtube.com/@thedeshbhakt"
     - DhruvRathee: "https://www.youtube.com/@dhruvrathee"
+    - Soch: "https://www.youtube.com/@sochbymm"
+    - StudyIQ IAS: "https://www.youtube.com/@StudyIQIAS"
+    - Think School: "https://www.youtube.com/@ThinkSchool"
+    - Abhi & Niyu: "https://www.youtube.com/@AbhiandNiyu"
+    - Wion News: "https://www.youtube.com/@WION"
+    
 
 ################
 # --- Logo --- #
@@ -110,7 +117,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -126,14 +133,14 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
+#navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+#page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+#footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
@@ -141,12 +148,12 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
@@ -176,9 +183,9 @@ footer-hover-col: "#0085A1"
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
 #matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
+ site_id: "9"
+ uri: "demo.wiki.pro"
+ opt-out: true
 
 ####################
 # --- Comments --- #
