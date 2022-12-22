@@ -58,7 +58,6 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "vishnu.logics637@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: mudavath.vishnuvardhan
   github: Vishnuvardhanchowhan
   instagram: bunny_rogerz.0_0
@@ -95,7 +94,6 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
   facebook: true
   linkedin: true
   vk: false
@@ -135,8 +133,7 @@ navbar-var-length: false
 
 #navbar-col: "#000000"
 navbar-text-col: "#EAEAEA"
-navbar-link-col: "#000000"
-#navbar-border-col: "#000000"
+navbar-border-col: "#000000"
 #page-col: "#FFFFFF"
 text-col: "#EAEAEA"
 link-col: "#008AFF"
