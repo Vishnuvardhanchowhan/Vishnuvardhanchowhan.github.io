@@ -148,7 +148,7 @@ footer-hover-col: "#0085A1"
 # instead of colour
 
 navbar-img: "/assets/img/bgimage_head.jpg"
-footer-img: "/assets/img/bgimage_main.png"
+footer-img: "/assets/img/bgimage_main.jpg"
 page-img: "/assets/img/bgimage_foot.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
