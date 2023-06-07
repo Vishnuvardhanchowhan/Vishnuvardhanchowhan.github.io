@@ -21,4 +21,5 @@ microcontroller. Our results will be shown on an LCD screen as well as in our lo
 (in an excel file which we generated using a python script).
 
 For more details head on to my [Github][1] repository. 
-[1]:[https://github.com/Vishnuvardhanchowhan/RFID-Attendance-system-design]
+
+[1]:https://github.com/Vishnuvardhanchowhan/RFID-Attendance-system-design
