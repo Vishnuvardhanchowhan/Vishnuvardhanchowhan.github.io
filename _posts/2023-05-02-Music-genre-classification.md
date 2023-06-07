@@ -3,7 +3,7 @@ layout: post
 title: Music Genre classifier
 subtitle: Music genre claassification using Machine learning models
 cover-img: /assets/img/mgenre/mgenre_wall.jpg
-thumbnail-img: /assets/img/mgenre/mgenre_complete.png
+thumbnail-img: /assets/img/mgenre/mgenre_complete.jpg
 share-img: /assets/img/path.jpg
 tags: [ML, AI]
 ---
