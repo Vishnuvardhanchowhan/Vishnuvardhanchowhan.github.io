@@ -1,0 +1,17 @@
+---
+layout: post
+title: RC Car XLR8 Project
+subtitle: A High torque RC Bot for tough terrains using ESP-32
+cover-img: /assets/img/rc_wall.jpg
+thumbnail-img: /assets/img/rc_complete.jpg
+share-img: /assets/img/path.jpg
+tags: [ESP-32, IOT]
+---
+
+We had built a Remote controlled Hot wheels, which can easily climb any tough terrain beacause of high torque motors installed in it, two files in my Github repo contains the code used 
+for both Joystick and Car installed ESP-32 Microcontrollers, Joystick ESP sends control signals to Motor ESP with WIFI- module and then Motor ESP decodes this message
+and send PWM signals to all fours motors accordingly, Whole setup was soldered on GP-Board and then a CAD model was made for hull of the Bot, We had named this Bot as The kharghosh.
+
+for further details head on to my [Github][1] Repository.
+
+[1]: https://github.com/Vishnuvardhanchowhan/RC-Car-XLR8/tree/main
