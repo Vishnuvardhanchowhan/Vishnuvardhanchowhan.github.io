@@ -20,4 +20,4 @@ database. We have designed our reader module using MFRC522 chip and TIVA C as
 microcontroller. Our results will be shown on an LCD screen as well as in our local database 
 (in an excel file which we generated using a python script).
 
-For more details head on to my [Github][https://github.com/Vishnuvardhanchowhan/RFID-Attendance-system-design] repository. 
+For more details head on to my [Github] [https://github.com/Vishnuvardhanchowhan/RFID-Attendance-system-design] repository. 
