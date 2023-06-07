@@ -137,12 +137,12 @@ navbar-border-col: "#000000"
 page-col: "#FFFFFF"
 text-col: "#FFE5B4"
 link-col: "#008AFF"
-hover-col: "#Dcf02d"
+hover-col: "#F24545"
 footer-col: "000000"
 footer-text-col: "#EAEAEA"
 footer-link-col: "#F0b12d"
 footer-border-col: "#000000"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#F24545"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -168,7 +168,7 @@ site-js: "/assets/js/custom-script.js"
 gtag: "G-0MGEPFHRY4"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+google_analytics: "5382146898"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
