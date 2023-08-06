@@ -1,16 +1,22 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: You came so far that means you are interested in me!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My nick name is Bunny. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I'm a perfectionist as well as a lazy ass.
+- I'm extremely loyal to my family.
+- I can do anything to get what I want.
+- Not a social being.
+- A Night owl.
 
 What else do you need?
 
 ### My story
+I'm an IITian as you would have known by now and being an IITian is never an easy task be it academics or society, life lesson that I have learned so far is, care less about others coz if you would do something good, no one would give a shit, but even if you do one mistake then 1000 fingers will be raised at you so be aware and love yourself don't expect anything from others.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Adios Amigo meet you next time till then take care!
+
+
