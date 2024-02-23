@@ -24,7 +24,7 @@ A spectrogram is a 2D representation of a signal having time on the x-axis and f
 
 What pre-processing steps did you follow before starting training on the deep learning model?
 * Loading and Resizing:
- * Load the spectrogram images and resize them to a consistent size. This ensures uniformity for model input.
+..* Load the spectrogram images and resize them to a consistent size. This ensures uniformity for model input.
 * Normalization:
  *Normalize pixel values to a specific range (e.g., [0, 1] or [-1, 1]) to facilitate model training.
 * Augmentation:
