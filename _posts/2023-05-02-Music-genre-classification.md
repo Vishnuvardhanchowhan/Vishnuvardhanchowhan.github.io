@@ -37,19 +37,25 @@ This evaluation criterion known as the area under the receiver operator characte
 > Different metrics used in machine learning and confusion metrics.
 
 A mammogram is a test that identifies whether someone has breast cancer. A false positive result would incorrectly diagnose that a patient has breast cancer, while a false negative one would fail to detect a patient who does have it. True positive is when there is breast cancer and it correctly detects it whereas true negative is when there is no breast cancer and it correctly identifies it.  
-Accuracy:
+
+1. Accuracy:
+   Accuracy is a metric that measures how often a machine learning model correctly predicts the outcome. You can calculate accuracy by dividing the number of correct predictions by the total number of predictions.
+   
+In other words, accuracy answers the question: how often the model is right?
+
 * Pros: Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. Accuracy is easy to explain and communicate. 
 * Cons: If you have imbalanced classes, accuracy is less useful since it gives equal weight to the model’s ability to predict all categories. Communicating accuracy in such cases can be misleading and disguise low performance on the target class.
 
+> Accuracy = \frac{No. of correct predictions}{all predictions}
                                                             
-1. Precision:
+2. Precision:
 Precision is a metric that measures how often a machine learning model correctly predicts the positive class. You can calculate precision by dividing the number of correct positive predictions (true positives) by the total number of instances the model predicted as positive (both true and false positives).
 The accuracy is a whopping 95% (the model is right in 57 cases out of 60), but the precision is 0. To calculate the precision, we must divide the number of correctly predicted spam emails by their total number. However, the number of correctly identified spam emails is 0. There were 3 spam emails in the dataset, and the model missed them all. All the correct predictions were about non-spam emails.
 In other words, precision answers the question: how often the positive predictions are correct?
 Say, as a product manager of the spam detection feature, you decide that cost of a false positive error is high. You can interpret the error cost as a negative user experience due to misprediction. You want to ensure that the user never misses an important email because it is incorrectly labeled as spam. As a result, you want to minimize false positive errors. 
 In this case, precision is a good metric to evaluate and optimize for. A higher precision score indicates that the model makes fewer false positive predictions. It is more likely to be correct whenever it predicts a positive outcome.
                                                                      
-2. Recall:
+3. Recall:
 Recall is a metric that measures how often a machine learning model correctly identifies positive instances (true positives) from all the actual positive samples in the dataset. You can calculate recall by dividing the number of true positives by the number of positive instances. The latter includes true positives (successfully identified cases) and false negative results (missed cases).
 In other words, recall answers the question: can an ML model find all instances of the positive class?
 It works well for problems with imbalanced classes since it is focused on the model’s ability to find objects of the target class.
@@ -58,7 +64,7 @@ In this case, you typically want to find all objects of the target class, even i
 For example, if an ML model points to possible medical conditions, detects dangerous objects in security screening, or alarms to potentially expensive fraud, missing out might be very expensive. In this scenario, you might prefer to be overly cautious and manually review more instances the model flags as suspicious. 
 In other words, you would treat false negative errors as more costly than false positives. If that is the case, you can optimize for recall and consider it the primary metric.
                                                                   
-3. F1 Score:
+4. F1 Score:
 Use Case: Balance between Precision and Recall
 F1 score is a good choice when you want a balance between precision and recall. It's especially useful when there's an uneven class distribution.
 
