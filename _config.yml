@@ -20,7 +20,7 @@ author: Mudavath Vishnuvardhan
 ###############################################
 
 navbar-links:
-  - About Me: "Mywebpage"
+    - About Me: "Mywebpage"
   Resources:
     - Coding: "https://www.youtube.com/@programmingwithmosh"
     - My Movies list: "https://www.imdb.com/chart/top/"
