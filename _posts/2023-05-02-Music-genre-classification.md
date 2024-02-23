@@ -42,7 +42,7 @@ Different metrics used in machine learning and confusion metrics.
 A mammogram is a test that identifies whether someone has breast cancer. A false positive result would incorrectly diagnose that a patient has breast cancer, while a false negative one would fail to detect a patient who does have it. True positive is when there is breast cancer and it correctly detects it whereas true negative is when there is no breast cancer and it correctly identifies it.  
 Accuracy:
 * Pros:
- * Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. 
+ .* Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. 
  * Accuracy is easy to explain and communicate. 
 * Cons:
  * If you have imbalanced classes, accuracy is less useful since it gives equal weight to the model’s ability to predict all categories. 
