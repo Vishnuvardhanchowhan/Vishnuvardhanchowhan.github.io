@@ -49,14 +49,16 @@ In other words, accuracy answers the question: how often the model is right?
 > Accuracy = No. of correct predictions / all predictions 
                                                             
 2. Precision:
-Precision is a metric that measures how often a machine learning model correctly predicts the positive class. You can calculate precision by dividing the number of correct positive predictions (true positives) by the total number of instances the model predicted as positive (both true and false positives).
+
+   Precision is a metric that measures how often a machine learning model correctly predicts the positive class. You can calculate precision by dividing the number of correct positive predictions (true positives) by the total number of instances the model predicted as positive (both true and false positives).
 The accuracy is a whopping 95% (the model is right in 57 cases out of 60), but the precision is 0. To calculate the precision, we must divide the number of correctly predicted spam emails by their total number. However, the number of correctly identified spam emails is 0. There were 3 spam emails in the dataset, and the model missed them all. All the correct predictions were about non-spam emails.
 In other words, precision answers the question: how often the positive predictions are correct?
 Say, as a product manager of the spam detection feature, you decide that cost of a false positive error is high. You can interpret the error cost as a negative user experience due to misprediction. You want to ensure that the user never misses an important email because it is incorrectly labeled as spam. As a result, you want to minimize false positive errors. 
 In this case, precision is a good metric to evaluate and optimize for. A higher precision score indicates that the model makes fewer false positive predictions. It is more likely to be correct whenever it predicts a positive outcome.
                                                                      
-3. Recall:
-Recall is a metric that measures how often a machine learning model correctly identifies positive instances (true positives) from all the actual positive samples in the dataset. You can calculate recall by dividing the number of true positives by the number of positive instances. The latter includes true positives (successfully identified cases) and false negative results (missed cases).
+4. Recall:
+
+   Recall is a metric that measures how often a machine learning model correctly identifies positive instances (true positives) from all the actual positive samples in the dataset. You can calculate recall by dividing the number of true positives by the number of positive instances. The latter includes true positives (successfully identified cases) and false negative results (missed cases).
 In other words, recall answers the question: can an ML model find all instances of the positive class?
 It works well for problems with imbalanced classes since it is focused on the model’s ability to find objects of the target class.
 Recall is useful when the cost of false negatives is high. 
@@ -64,8 +66,9 @@ In this case, you typically want to find all objects of the target class, even i
 For example, if an ML model points to possible medical conditions, detects dangerous objects in security screening, or alarms to potentially expensive fraud, missing out might be very expensive. In this scenario, you might prefer to be overly cautious and manually review more instances the model flags as suspicious. 
 In other words, you would treat false negative errors as more costly than false positives. If that is the case, you can optimize for recall and consider it the primary metric.
                                                                   
-4. F1 Score:
-Use Case: Balance between Precision and Recall
+6. F1 Score:
+
+   Balance between Precision and Recall
 F1 score is a good choice when you want a balance between precision and recall. It's especially useful when there's an uneven class distribution.
 
 > For further details head on to my [github][1] repository.
