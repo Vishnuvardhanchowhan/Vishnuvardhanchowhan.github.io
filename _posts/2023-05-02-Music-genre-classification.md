@@ -12,7 +12,7 @@ Developed a music genre classifier that classifies or categorizes audio datasets
 The VGG16 model is trained on audio spectrogram images extracted from the Audio dataset using the YouTube command.
 Finally combined best-performing models from both of these approaches, with their combined strengths, they gave us the best performance with a ROC value of 0.864, higher than any individual ML models.
 
-Why did I choose VGG16 instead of others? What is a VGG16 model? 
+> Why did I choose VGG16 instead of others? What is a VGG16 model? 
 
 VGG16 is a type of CNN (Convolutional Neural Network) that is considered to be one of the best computer vision models to date. The creators of this model evaluated the networks and increased the depth using an architecture with very small (3 × 3) convolution filters, which showed a significant improvement on the prior-art configurations. They pushed the depth to 16–19 weight layers making it approximately — 138 trainable parameters. 
 VGG16 is object detection and classification algorithm which is able to classify 1000 images of 1000 different categories with 92.7% accuracy. It is one of the popular algorithms for image classification and is easy to use with transfer learning.
