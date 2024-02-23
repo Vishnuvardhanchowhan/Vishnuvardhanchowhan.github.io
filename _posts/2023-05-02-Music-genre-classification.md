@@ -46,7 +46,7 @@ In other words, accuracy answers the question: how often the model is right?
 * Pros: Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. Accuracy is easy to explain and communicate. 
 * Cons: If you have imbalanced classes, accuracy is less useful since it gives equal weight to the model’s ability to predict all categories. Communicating accuracy in such cases can be misleading and disguise low performance on the target class.
 
-> Accuracy = \frac{No. of correct predictions}{all predictions}
+> Accuracy = \frac{No. of correct predictions}{all predictions}\
                                                             
 2. Precision:
 Precision is a metric that measures how often a machine learning model correctly predicts the positive class. You can calculate precision by dividing the number of correct positive predictions (true positives) by the total number of instances the model predicted as positive (both true and false positives).
