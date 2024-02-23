@@ -20,6 +20,7 @@ The model consists of 5 convolutional blocks (conv base), followed by a set of d
 
  
 > What is an audio spectrogram?
+
 A spectrogram is a 2D representation of a signal having time on the x-axis and frequency on the y-axis. A colormap is used to quantify the magnitude of a given frequency within a given time window.
 
 What pre-processing steps did you follow before starting training on the deep learning model?
@@ -30,6 +31,7 @@ What pre-processing steps did you follow before starting training on the deep le
 * Handling Imbalanced Classes: If your dataset has imbalanced classes, consider strategies like oversampling, under-sampling, or using class weights during training.
 
 > What is ROC value?
+
 This evaluation criterion known as the area under the receiver operator characteristics (ROC) curve is a common way to judge the performance of a multi-class classification system. The ROC is a graph between the true positive rate and the false positive rate. A baseline model that randomly predicts each class label with equal probability would have an AUC of 0.5, and hence the system being designed is expected to have an AUC higher than 0.5.
 
 > Different metrics used in machine learning and confusion metrics.
