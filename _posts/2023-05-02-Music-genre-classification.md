@@ -23,16 +23,16 @@ What is an audio spectrogram?
 A spectrogram is a 2D representation of a signal having time on the x-axis and frequency on the y-axis. A colormap is used to quantify the magnitude of a given frequency within a given time window.
 
 What pre-processing steps did you follow before starting training on the deep learning model?
-o	Loading and Resizing:
-	Load the spectrogram images and resize them to a consistent size. This ensures uniformity for model input.
-o	Normalization:
-	Normalize pixel values to a specific range (e.g., [0, 1] or [-1, 1]) to facilitate model training.
-o	Augmentation:
-	Apply data augmentation techniques such as rotation, zooming, or flipping to artificially increase the diversity of your training dataset. This helps the model generalize better.
-o	Filtering and Denoising:
-	Apply filters or denoising techniques to reduce noise in the spectrogram images, especially if the recording environment introduces unwanted artifacts.
-o	Handling Imbalanced Classes:
-	If your dataset has imbalanced classes, consider strategies like oversampling, under-sampling, or using class weights during training.
+*Loading and Resizing:
+**Load the spectrogram images and resize them to a consistent size. This ensures uniformity for model input.
+*Normalization:
+**Normalize pixel values to a specific range (e.g., [0, 1] or [-1, 1]) to facilitate model training.
+*Augmentation:
+**Apply data augmentation techniques such as rotation, zooming, or flipping to artificially increase the diversity of your training dataset. This helps the model generalize better.
+*Filtering and Denoising:
+**Apply filters or denoising techniques to reduce noise in the spectrogram images, especially if the recording environment introduces unwanted artifacts.
+*Handling Imbalanced Classes:
+**If your dataset has imbalanced classes, consider strategies like oversampling, under-sampling, or using class weights during training.
 
 What is ROC value?
 This evaluation criterion known as the area under the receiver operator characteristics (ROC) curve is a common way to judge the performance of a multi-class classification system. The ROC is a graph between the true positive rate and the false positive rate. A baseline model that randomly predicts each class label with equal probability would have an AUC of 0.5, and hence the system being designed is expected to have an AUC higher than 0.5.
@@ -42,11 +42,11 @@ Different metrics used in machine learning and confusion metrics.
 A mammogram is a test that identifies whether someone has breast cancer. A false positive result would incorrectly diagnose that a patient has breast cancer, while a false negative one would fail to detect a patient who does have it. True positive is when there is breast cancer and it correctly detects it whereas true negative is when there is no breast cancer and it correctly identifies it.  
 Accuracy:
 Pros:
-	Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. 
-	Accuracy is easy to explain and communicate. 
+*Accuracy is a helpful metric when you deal with balanced classes and care about the overall model “correctness” and not the ability to predict a specific class. 
+*Accuracy is easy to explain and communicate. 
 Cons:
-	If you have imbalanced classes, accuracy is less useful since it gives equal weight to the model’s ability to predict all categories. 
-	Communicating accuracy in such cases can be misleading and disguise low performance on the target class.
+*If you have imbalanced classes, accuracy is less useful since it gives equal weight to the model’s ability to predict all categories. 
+*Communicating accuracy in such cases can be misleading and disguise low performance on the target class.
 
                                                             
 Precision:
@@ -69,6 +69,6 @@ F1 Score:
 Use Case: Balance between Precision and Recall
 F1 score is a good choice when you want a balance between precision and recall. It's especially useful when there's an uneven class distribution.
 
-For futrther details head on to my [github][1] repository.
+For further details head on to my [github][1] repository.
 
 [1]:https://github.com/Vishnuvardhanchowhan/Music-Genre-Classification-IML-Project
