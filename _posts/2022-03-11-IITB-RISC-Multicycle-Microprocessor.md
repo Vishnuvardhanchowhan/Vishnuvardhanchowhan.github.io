@@ -2,8 +2,8 @@
 layout: post
 title: IITB RISC Multi-cycle Microprocessor 
 subtitle: RISC Instruction set Multi-cycle Microprocessor 
-cover-img: /assets/img/rfid/rfid_wall.jpg
-thumbnail-img: /assets/img/rfid/rfid_complete.png
+cover-img: /assets/img/RISC/risc_wall.jpg
+thumbnail-img: /assets/img/RISC/risc_prof.jpg
 share-img: /assets/img/path.jpg
 tags: [RFID, Wireless Tech]
 ---
