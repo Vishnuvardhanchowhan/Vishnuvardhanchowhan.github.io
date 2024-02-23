@@ -20,7 +20,6 @@ author: Mudavath Vishnuvardhan
 ###############################################
 
 navbar-links:
-  - About Me: "Mywebpage"
   - About Me Technical: "https://github.com/Vishnuvardhanchowhan/Vishnuvardhanchowhan.github.io/blob/master/404.html"
   Resources:
     - Coding: "https://www.youtube.com/@programmingwithmosh"
