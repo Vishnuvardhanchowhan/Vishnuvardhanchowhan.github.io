@@ -39,6 +39,7 @@ This evaluation criterion known as the area under the receiver operator characte
 A mammogram is a test that identifies whether someone has breast cancer. A false positive result would incorrectly diagnose that a patient has breast cancer, while a false negative one would fail to detect a patient who does have it. True positive is when there is breast cancer and it correctly detects it whereas true negative is when there is no breast cancer and it correctly identifies it.  
 
 1. Accuracy:
+
    Accuracy is a metric that measures how often a machine learning model correctly predicts the outcome. You can calculate accuracy by dividing the number of correct predictions by the total number of predictions.
    
 In other words, accuracy answers the question: how often the model is right?
